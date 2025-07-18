@@ -1,0 +1,14 @@
+.stApp {
+    background-color: #ff0000; 
+    background-image: url("https://wallpapers.com/images/high/dark-scary-a27s5dwb45gf7g87.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.stButton>button {
+    background-color: #e4be14;
+    color: rgb(181, 15, 15);
+    padding: 10px 24px;
+    border-radius: 8px;
+}

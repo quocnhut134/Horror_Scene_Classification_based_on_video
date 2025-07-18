@@ -1,0 +1,7 @@
+
+    # Root link to cls_dataset: E:\Working\Learning\Subjects\Computational_Thinking\Horror_scene_CLS\Source_code\YoloV8\yolo_classification_data_organized
+
+    # Name of layers:
+    0: non_violence
+    1: violence
+    
