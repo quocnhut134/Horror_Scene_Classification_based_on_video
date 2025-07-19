@@ -5,7 +5,6 @@ tqdm
 pandas 
 matplotlib 
 seaborn
-ipywidgets
 torch 
 torchvision 
 torchaudio
@@ -17,5 +16,4 @@ moviepy
 joblib
 numpy
 
-spyder
 streamlit  
