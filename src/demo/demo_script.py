@@ -119,7 +119,7 @@ def process_video_for_horror_classification(video_path, segment_duration=10, mod
 if __name__ == "__main__":
     
     # P/s: Replace this link if you have FFMPEG in another position or it existed in system path
-    os.environ["FFMPEG_BINARY"] = r"C:\ffmpeg\bin\ffmpeg.exe" 
+    # os.environ["FFMPEG_BINARY"] = r"C:\ffmpeg\bin\ffmpeg.exe" 
 
     setup_gpu_environment()
 
