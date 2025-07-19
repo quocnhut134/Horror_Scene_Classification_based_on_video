@@ -49,6 +49,8 @@ You can install all packages above by installing requirement.txt in the root dir
 pip install -r requirement.txt
 ```
 
+**Warning:** Beacause of deploying the streamlit app, requirement.txt doesn't contain spyder and ipywidget. You need to install them separately after installing packages in requirement.txt.
+
 Also, this project includes using GPU to relabel data, fine-tune **YOLOv8**, preprocess data and train **Classifier Model**. So, please ensure that you installed **CUDA Toolkit** and its suitable **CuDNN** version.
 
 This project uses:
