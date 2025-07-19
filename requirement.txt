@@ -16,4 +16,7 @@ moviepy
 joblib
 numpy
 
-streamlit  
+streamlit 
+
+spyder
+ipywidgets
