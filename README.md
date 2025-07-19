@@ -115,7 +115,12 @@ After passing stages above, you can classify horror video by running this:
 cd .. #Go to root directory of this project
 python -m src.demo.demo_script
 ```
-**Warning:** You need to add your horror video link to code in demo_script.py first
+
+**Warning 1:** You need to install ffmpeg that I presented above and uncomment this line in demo_script.py (Only if your ffmpeg PATH is the same as mine):
+```
+    # os.environ["FFMPEG_BINARY"] = r"C:\ffmpeg\bin\ffmpeg.exe" 
+```
+**Warning 2:** You need to add your horror video link to code in demo_script.py first
 ## Demo with Streamlit
 
 You can also visualize this classify model on Streamlit, please run this:
